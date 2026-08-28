@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+kaggle.json
+access_token
+
+# Data
+data/
+*.csv
+*.parquet
+*.zip
+
+# Models and experiment artifacts
+artifacts/
+models/
+mlruns/
+*.pkl
+*.joblib
+*.onnx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
